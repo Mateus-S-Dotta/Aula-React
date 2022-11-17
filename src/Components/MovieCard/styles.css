@@ -1,0 +1,29 @@
+.movie-card {
+    width: 168px;
+    height: 300px;
+    position: relative;
+}
+
+.movie-img {
+    width: 168px;
+    height: 300px;
+}
+
+.movie-info {
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 8px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: white
+}
+
+.movie-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
