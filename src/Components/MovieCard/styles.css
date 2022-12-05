@@ -4,12 +4,12 @@
     position: relative;
 }
 
-.movie-img {
+.movie-card img {
     width: 168px;
     height: 300px;
 }
 
-.movie-info {
+.movie-card div {
     background: rgba(0, 0, 0, 0.8);
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,7 @@
     color: white
 }
 
-.movie-title {
+.movie-card span {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
